@@ -70,155 +70,131 @@
                     android:orientation="vertical">
 
                     <LinearLayout
+                        android:id="@+id/login_register_now_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/biography"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        android:padding="4dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/biotxt"
                             android:textAllCaps="true"
+                            android:inputType="textMultiLine"
                             android:text="bio"
                             />
 
 
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@color/com_facebook_blue"
-                        />
+
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/calendar"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        android:padding="4dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/dobtxt"
-                            android:textSize="18dp"
-                            android:text="dob"
+                            android:textAllCaps="true"
+                            android:inputType="textMultiLine"
+                            android:text="bio"
                             />
 
+
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@color/com_facebook_blue"
-                        />
+
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/phone"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        android:padding="4dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18dp"
                             android:id="@+id/phonetxt"
-                            android:text="phone"
+                            android:textAllCaps="true"
+                            android:inputType="number"
+                            android:text="bio"
                             />
 
+
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@color/com_facebook_blue"
-                        />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/email"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        android:padding="4dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/emailtxt"
-                            android:textSize="18dp"
-                            android:text="email"
+                            android:textAllCaps="true"
+                            android:inputType="number"
+                            android:text="bio"
                             />
 
+
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@color/com_facebook_blue"
-                        />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/linkedin"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        android:padding="4dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/linkdxt"
-                            android:textSize="18dp"
-                            android:text="linkedin"
+                            android:textAllCaps="true"
+                            android:inputType="text"
+                            android:text="bio"
                             />
 
+
                     </LinearLayout>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@color/com_facebook_blue"
-                        />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
                         android:orientation="horizontal"
-                        >
+                        android:padding="4dp">
 
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/address"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="80dp"
+                        <EditText
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/txtaddrs"
-                            android:textSize="18dp"
-                            android:text="address"
+                            android:textAllCaps="true"
+                            android:inputType="textMultiLine"
+                            android:text="bio"
                             />
+
 
                     </LinearLayout>
                     <View

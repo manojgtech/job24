@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -66,17 +67,17 @@ imageView=findViewById(R.id.dp_image);
 
            //set profile data
 
-           TextView txtname = (TextView) findViewById(R.id.biotxt);
+           EditText txtname = findViewById(R.id.biotxt);
 
 
            txtname.setText(bio);
            CircleImageView imgv = findViewById(R.id.dp_image);
            TextView uname = findViewById(R.id.text_home);
-           TextView dobtxt = findViewById(R.id.dobtxt);
-           TextView mobtxt = findViewById(R.id.phonetxt);
-           TextView emailtxt = findViewById(R.id.emailtxt);
-           TextView linktxt = findViewById(R.id.linkdxt);
-           TextView adrstxt = findViewById(R.id.txtaddrs);
+           EditText dobtxt = findViewById(R.id.dobtxt);
+           EditText mobtxt = findViewById(R.id.phonetxt);
+           EditText emailtxt = findViewById(R.id.emailtxt);
+           EditText linktxt = findViewById(R.id.linkdxt);
+           EditText adrstxt = findViewById(R.id.txtaddrs);
 
            uname.setText(name);
            dobtxt.setText(dob);
