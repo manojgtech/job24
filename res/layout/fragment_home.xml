@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/com_facebook_blue"
+              android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_exit_to_app_black_24d"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/logoutbtn"
+                />
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_alignParentRight="true"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/dp_image"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/user"
+                />
+      <View
+          android:layout_width="80dp"
+          android:layout_height="5dp"
+          android:layout_marginTop="5dp"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/dp_image"
+          android:id="@+id/hrline"
+          android:background="@color/cardview_dark_background"
+          />
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_below="@+id/hrline"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:textAllCaps="true"
+                android:text="username"
+                android:textStyle="bold"
+                android:fontFamily="@string/title_activity_base"
+                android:textAlignment="center"
+                android:textSize="24dp" />
+        </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@color/colorWhite"
+    android:textAlignment="center"
+    android:textDirection="firstStrongLtr"
+    android:padding="10dp"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/biotxt"
+    android:text="bio"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dobtxt"
+        android:textSize="18dp"
+        android:text="dob"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/phonetxt"
+        android:text="phone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailtxt"
+        android:textSize="18dp"
+        android:text="email"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkdxt"
+        android:textSize="18dp"
+        android:text="linkedin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtaddrs"
+        android:textSize="18dp"
+        android:text="address"
+        />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
